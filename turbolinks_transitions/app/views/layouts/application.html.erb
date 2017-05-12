@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TurbolinksTransitions</title>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default" data-turbolinks-track>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="">
+            Hola Mundo
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      <%= yield %>
+    </div>
+  </body>
+</html>
+<div
